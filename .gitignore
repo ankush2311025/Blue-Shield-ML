@@ -1,0 +1,50 @@
+# ----------------------------
+# Python
+# ----------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Environment files
+.env
+.venv/
+venv/
+env/
+
+# ----------------------------
+# Jupyter
+# ----------------------------
+.ipynb_checkpoints/
+
+# ----------------------------
+# Logs
+# ----------------------------
+*.log
+
+# ----------------------------
+# OS files
+# ----------------------------
+.DS_Store
+Thumbs.db
+
+# ----------------------------
+# VSCode / IDE
+# ----------------------------
+.vscode/
+.idea/
+
+# ----------------------------
+# PyTorch / ML artifacts
+# ----------------------------
+*.pth
+*.pt
+*.pkl
+
+# Ignore data folder if you don't want to push raw images
+data/
+data/**
+
+# Temporary files
+temp_*
