@@ -43,8 +43,9 @@ Thumbs.db
 *.pkl
 
 # Ignore data folder if you don't want to push raw images
-data/
-data/**
+data/*
+!data/coastal_tweets_data.csv
+!data/indian_coastal_comments.csv
 
 # Temporary files
 temp_*
